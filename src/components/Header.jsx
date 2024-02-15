@@ -21,7 +21,7 @@ const Header = () => {
           </div>
 
           <div className="md:flex md:items-center md:ml-auto">
-            <ul className={`md:flex md:space-x-8 ${isMobileMenuOpen ? 'hidden' : 'block'}`}>
+            <ul className={`hidden md:flex md:space-x-8 ${isMobileMenuOpen ? 'hidden' : 'block'}`}>
               <li className={`${location.pathname === '/' ? 'text-amarelo font-bold' : 'text-white'}`}>
                 <Link to="/refugio-onirico" className="text-xl font-semibold">
                   Cursos
@@ -54,17 +54,17 @@ const Header = () => {
 
           <ul className="flex flex-col text-center space-y-6">
             <li>
-              <Link to="/" className={`text-2xl ${location.pathname === '/' ? 'text-rosa font-bold' : 'text-white'}`}>
+              <Link to="/refugio-onirico" className={`text-2xl ${location.pathname === '/refugio-onirico' ? 'text-white font-bold' : 'text-amarelo'}`}>
                 Cursos
               </Link>
             </li>
             <li>
-              <Link to="/portfolio" className={`text-2xl ${location.pathname === '/portfolio' ? 'text-amarelo font-bold' : 'text-white'}`}>
+              <Link to="/refugio-onirico" className={`text-2xl ${location.pathname === '/refugio-onirico' ? 'text-white font-bold' : 'text-amarelo'}`}>
                 Ebooks
               </Link>
             </li>
             <li>
-              <Link to="/portfolio" className={`text-2xl ${location.pathname === '/portfolio' ? 'text-amarelo font-bold' : 'text-white'}`}>
+              <Link to="/refugio-onirico" className={`text-2xl ${location.pathname === '/refugio-onirico' ? 'text-white font-bold' : 'text-amarelo'}`}>
                 Cursos Indicados
               </Link>
             </li>
