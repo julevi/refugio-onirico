@@ -14,6 +14,7 @@ export default {
         creme: "#fcf9dd",
         amarelo: "#fcc100",
         cinza: "#25253c",
+        preto: "rgba(0,0,0,.9)",
       },
     },
   },

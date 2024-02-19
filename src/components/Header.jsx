@@ -14,26 +14,26 @@ const Header = () => {
 
   return (
     <nav className="bg-roxo z-10">
-      <header className="p-4">
-        <div className="flex max-w-7xl mx-auto px-4 items-center">
+      <header className="">
+        <div className="flex max-w-5xl mx-auto px-4 items-center">
           <div className="flex-auto">
-            <img className="w-44 cursor-pointer" src={logo} alt="" />
+            <img className="w-40 cursor-pointer" src={logo} alt="" />
           </div>
 
           <div className="md:flex md:items-center md:ml-auto">
-            <ul className={`hidden md:flex md:space-x-8 ${isMobileMenuOpen ? 'hidden' : 'block'}`}>
+            <ul className={`hidden md:flex md:space-x-14 ${isMobileMenuOpen ? 'hidden' : 'block'}`}>
               <li className={`${location.pathname === '/' ? 'text-amarelo font-bold' : 'text-white'}`}>
-                <Link to="/refugio-onirico" className="text-xl font-semibold">
+                <Link to="/refugio-onirico" className="text-2xl font-semibold">
                   Cursos
                 </Link>
               </li>
               <li className={`${location.pathname === '/portfolio' ? 'text-amarelo font-bold' : 'text-white'}`}>
-                <Link to="/refugio-onirico" className="text-xl font-semibold">
-                  Ebooks
+                <Link to="/refugio-onirico" className="text-2xl font-semibold">
+                  E-books
                 </Link>
               </li>
               <li className={`${location.pathname === '/portfolio' ? 'text-amarelo font-bold' : 'text-white'}`}>
-                <Link to="/refugio-onirico" className="text-xl text-white font-semibold">
+                <Link to="/refugio-onirico" className="text-2xl text-white font-semibold">
                   Cursos Indicados
                 </Link>
               </li>
