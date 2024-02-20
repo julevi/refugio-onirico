@@ -7,7 +7,6 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        asteristico: ['Asteristico', 'sans-serif'],
       },
       colors: {
         roxo: "#7619c4",
