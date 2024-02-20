@@ -1,5 +1,5 @@
 import React from 'react';
-import video from '../assets/video/video.gif';
+import video from '../assets/video/video.mp4';
 
 
 const Apresentacao = () => {
@@ -11,7 +11,7 @@ const Apresentacao = () => {
             <h1 className="text-3xl leading-tight lg:text-6xl font-bold text-white">Ensino de animação utilizando processos simples e intuitivos.</h1>
             <h1 className="text-4xl lg:text-6xl font-bold text-amarelo mb-4">Vamos Animar!</h1>
           </div>
-          <img src={video} className="" alt="" style={{width: '36rem'}} />
+          <video src={video} className="" alt="" style={{width: '36rem'}} autoPlay loop muted></video>
         </div>
       </div>
     </div>
