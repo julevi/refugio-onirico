@@ -17,7 +17,7 @@ const Header = () => {
       <header className="">
         <div className="flex max-w-5xl mx-auto px-4 items-center">
           <div className="flex-auto">
-            <img className="w-40 cursor-pointer" src={logo} alt="" />
+            <a href="#"><img className="w-40 cursor-pointer" src={logo} alt="" /></a>
           </div>
 
           <div className="md:flex md:items-center md:ml-auto">
