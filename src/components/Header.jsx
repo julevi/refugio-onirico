@@ -47,7 +47,7 @@ const Header = () => {
       </header>
 
       {isMobileMenuOpen && (
-        <div className="md:hidden fixed top-0 left-0 w-full h-full bg-roxo flex items-center justify-center">
+        <div className="md:hidden fixed top-0 left-0 w-full h-full bg-roxo flex items-center justify-center z-30">
           <div className="absolute top-12 right-8 z-60">
             <img className="w-8 cursor-pointer" src={xsimbolo} alt="" onClick={toggleMobileMenu} />
           </div>

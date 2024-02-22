@@ -4,7 +4,7 @@ import background from '../assets/img/background.png';
 
 const Apresentacao = () => {
   return (
-    <div className="bg-cinza relative">
+    <div className="bg-cinza relative  z-10">
       <div className="absolute inset-0" style={{ backgroundImage: `url(${background})`, opacity: 0.1 }}></div>
       <div className="container max-w-7xl mx-auto py-5 px-2 xl:px-10 relative z-10">
         <div className="flex flex-col xl:flex-row items-center justify-center py-10 xl:py-6 ">
