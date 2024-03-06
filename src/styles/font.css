@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'ortem';
+    src: local('Ortem MN Regular'), url('../assets/fonts/Ortem-MN-Regular.woff') format('woff');
+
+  }
+  
+  h1 {
+    font-family: 'ortem', 'Arial';
+}
+
+p, h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
