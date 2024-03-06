@@ -3,10 +3,15 @@ import react from '@vitejs/plugin-react';
 import { createServer } from 'vite';
 import historyApiFallback from 'connect-history-api-fallback';
 
+// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
   base: "/refugio-onirico",
   server: {
-    middleware: [historyApiFallback()]
+    middleware: []
   }
 });
+
+if (process.env.NODE_ENV === 'development') {
+  config.server.middleware.push(historyApiFallback());
+}
