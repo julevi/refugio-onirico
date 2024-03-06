@@ -15,8 +15,8 @@ const QuadroCursos = () => {
             <div className="container max-w-7xl xl:max-w-4xl mx-auto px-6 xl:px-0">
 
                 <div className="text-center mb-6 xl:mb-0">
-                    <h1 className="text-4xl lg:text-6xl text-amarelo font-ortem pt-12">Cursos da Refúgio</h1>
-                    <h2 className="text-2xl text-white"><i>Melhores cursos de animações com <b>valores acessiveis</b> para o seu aprendizado</i></h2>
+                    <h1 className="text-4xl lg:text-6xl text-amarelo font-ortem pt-12">Melhores cursos de animações</h1>
+                    <h2 className="text-2xl text-white"><i> <b>Valores acessiveis</b> para o seu aprendizado</i></h2>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 py-10">

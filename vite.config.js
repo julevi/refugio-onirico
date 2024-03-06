@@ -11,7 +11,3 @@ export default defineConfig({
     middleware: []
   }
 });
-
-if (process.env.NODE_ENV === 'development') {
-  config.server.middleware.push(historyApiFallback());
-}
