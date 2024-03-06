@@ -8,10 +8,8 @@ import "../styles/font.css";
 function Cursos() {
   return (
     <>
-      <Header />
       <QuadroCursos/>
       <Professor/>
-      <Footer/>
     </>
   );
 }

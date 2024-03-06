@@ -12,14 +12,12 @@ import "../styles/font.css";
 function Home() {
   return (
     <>
-      <Header />
       <Apresentacao />
       <RefugioCursos/>
       <EncontreAqui/>
       <AcesseAqui/>
       <Galeria/>
       <Professor/>
-      <Footer/>
     </>
   );
 }
