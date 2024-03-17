@@ -16,7 +16,7 @@ const Header = () => {
     <nav className="bg-roxo z-10">
       <header className="">
         <div className="flex max-w-5xl mx-auto px-4 items-center">
-        <div className="flex-auto">
+          <div className="flex-auto">
             <Link to="/refugio-onirico">
               <img className="w-40 cursor-pointer" src={logo} alt="" />
             </Link>
@@ -24,19 +24,19 @@ const Header = () => {
 
           <div className="md:flex md:items-center md:ml-auto">
             <ul className={`hidden md:flex md:space-x-14 ${isMobileMenuOpen ? 'hidden' : 'block'}`}>
+              <li className={`${location.pathname === '/' ? 'text-amarelo font-bold' : 'text-white'}`}>
+                <Link to="/refugio-onirico/" className="text-xl font-semibold">
+                  Home
+                </Link>
+              </li>
               <li className={`${location.pathname === '/cursos' ? 'text-amarelo font-bold' : 'text-white'}`}>
                 <Link to="/refugio-onirico/cursos" className="text-xl font-semibold">
                   Cursos
                 </Link>
               </li>
-              <li className={`${location.pathname === '/indicados' ? 'text-amarelo font-bold' : 'text-white'}`}>
-                <Link to="/refugio-onirico/indicados" className="text-xl font-semibold">
+              <li className={`${location.pathname === '/ebooks' ? 'text-amarelo font-bold' : 'text-white'}`}>
+                <Link to="/refugio-onirico/ebooks" className="text-xl font-semibold">
                   E-books
-                </Link>
-              </li>
-              <li className={`${location.pathname === '/indicados' ? 'text-amarelo font-bold' : 'text-white'}`}>
-                <Link to="/refugio-onirico/indicados" className="text-xl text-white font-semibold">
-                  Cursos Indicados
                 </Link>
               </li>
             </ul>

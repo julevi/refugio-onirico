@@ -3,13 +3,12 @@ import QuadroCursos from '../components/QuadroCursos';
 import Professor from '../components/Professor';
 import "../styles/font.css";
 
-function Cursos() {
+function Ebooks() {
   return (
     <>
-      <QuadroCursos/>
       <Professor/>
     </>
   );
 }
 
-export default Cursos;
+export default Ebooks;
